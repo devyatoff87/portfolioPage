@@ -1,0 +1,26 @@
+.sectionTwoClm {
+    .info {
+        display: flex;
+        color: var(--text-color);
+
+        p {
+            font-size: 1rem;
+            width: 100%;
+            font-weight: 400;
+            margin-right: 1.4rem;
+            width: 60%;
+        }
+    }
+
+    @media screen and (max-width: 660px) {
+        .info {
+            flex-direction: column;
+
+            p {
+                margin-bottom: 2rem;
+                margin-right: 0;
+                width: 100%;
+            }
+        }
+    }
+}

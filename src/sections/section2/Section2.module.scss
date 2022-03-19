@@ -1,0 +1,46 @@
+.moreInfoContainer {
+    display: flex;
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
+
+.moreInfoContainerLeft {
+    margin-right: 1.4rem;
+
+    @media screen and (max-width: 600px) {
+        margin: 0;
+    }
+
+    & .info:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+}
+
+.moreInfoContainerRight {
+    & .info:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+}
+
+.info {
+    .icon {
+        color: var(--darkBlue);
+        font-size: 2rem;
+        margin-bottom: 4px;
+    }
+
+    h4 {
+        margin: 0;
+        margin-bottom: 0.6rem;
+        color: var(--white);
+        font-size: 1.3rem;
+    }
+
+    .description {
+        color: var(--text-color);
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,1 @@
+-- all links and navlinks should be wrapped with BrowserRouter, otherwise it errors

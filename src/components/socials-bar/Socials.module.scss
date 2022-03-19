@@ -1,0 +1,24 @@
+ .socials {
+     display: flex;
+     margin-top: 0.8rem;
+     gap: 5px;
+
+     a {
+         text-decoration: none;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 0.5rem;
+         border-radius: 50%;
+         transition: all ease-in-out 0.3s;
+
+         &:hover {
+             background: var(--gray);
+         }
+
+         svg {
+             color: var(--white);
+             font-size: 18px;
+         }
+     }
+ }

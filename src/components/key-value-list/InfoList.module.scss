@@ -1,0 +1,21 @@
+.infoList {
+    width: 40%;
+
+    @media only screen and (max-width:660px) {
+        width: 100%;
+    }
+
+    li {
+        margin-bottom: 0.8rem;
+
+        span {
+            color: var(--white);
+            margin-right: 0.6rem;
+        }
+
+        & span:first-child {
+            color: var(--blue);
+            font-weight: 600;
+        }
+    }
+}
