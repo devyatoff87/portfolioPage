@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from "./Cv.module.scss"
-import avatar from "../../data/img/Avatar.png";
+import avatar from "../../assets/Avatar.png";
 import ListItemLink from '../list-item-link/ListItemLink';
 import {
     FaLinkedinIn,
