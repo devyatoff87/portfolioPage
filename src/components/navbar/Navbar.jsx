@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./Navbar.module.scss"
 
 import ListItemLink from '../list-item-link/ListItemLink';
-import mainNavLinks from "../../data/json/mainNavLinks.json"
+import mainNavLinks from "../../data/mainNavLinks.json"
 import {
     AiOutlineHome,
     AiOutlineUser,

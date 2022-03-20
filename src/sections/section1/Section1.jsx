@@ -3,7 +3,7 @@ import KeyValueList from '../../components/key-value-list/KeyValueList'
 import { BigTitle } from '../../components/titles/Titles'
 import useObjectToArray from '../../customHooks/useObjectToArray'
 import styles from "./Section1.module.scss"
-import personInfo from "../../data/json/personInfo.json";
+import personInfo from "../../data/personInfo.json";
 
 function Section1() {
 

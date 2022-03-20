@@ -17,7 +17,6 @@ function BigTitle({ title }) {
 
 function SmallTitle({ title }) {
 
-    console.log(title);
     const { firstWord, restOfStr } = useFirstWord(title)
 
     return (

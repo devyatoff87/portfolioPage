@@ -1,0 +1,23 @@
+@use "../../style/breakpoints.scss";
+@use "../../style/mixins.scss";
+
+
+.nav2 {
+    display: none;
+    list-style-type: none;
+    margin: 2.2rem 0;
+
+    @media screen and (max-width: breakpoints.$laptop) {
+        display: initial;
+
+        span {
+            color: var(--text-color);
+            transition: color 200ms ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--darkBlue);
+            }
+        }
+    }
+}

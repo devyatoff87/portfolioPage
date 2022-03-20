@@ -18,7 +18,7 @@ const TestimonialsSliderSettings = {
   speed: 500,
   autoplay: true,
   autoplaySpeed: 5000,
-  arrows: false,
+  arrows: true,
   slidesToShow: 2,
   slidesToScroll: 1,
   responsive: [
