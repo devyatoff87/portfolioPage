@@ -11,6 +11,7 @@ import About from './pages/about/About';
 import Portfolio from './pages/portfolio/Portfolio';
 import Contact from './pages/contact/Contact';
 import Blog from './pages/blog/Blog';
+import SmoothAnm_hoc from './hocs/smoothAnm_hoc';
 
 function App() {
   return (
@@ -18,13 +19,15 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Cv />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='about' element={<About />} />
-          <Route path='portfolio' element={<Portfolio />} />
-          <Route path='contact' element={<Contact />} />
-          <Route path='blog' element={<Blog />} />
-        </Routes>
+        <SmoothAnm_hoc>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='about' element={<About />} />
+            <Route path='portfolio' element={<Portfolio />} />
+            <Route path='contact' element={<Contact />} />
+            <Route path='blog' element={<Blog />} />
+          </Routes>
+        </SmoothAnm_hoc>
       </BrowserRouter>
     </div>
   );

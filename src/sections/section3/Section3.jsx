@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slide from "../../components/slide/Slide"
 import { SmallTitle } from '../../components/titles/Titles';
 import {
-    People, Logos, TestimonialsSliderSettings, ClientSliderSetting
+    People, TestimonialsSliderSettings,
 } from "../../settings/sliderSettings"
 
 function Section3() {
@@ -14,7 +14,7 @@ function Section3() {
 
     return (
         <section>
-            <SmallTitle title="My clients" />
+            <SmallTitle title="Testemonials" />
             <Slider  {...TestimonialsSliderSettings} >
                 {
                     People.map((person, i) => {

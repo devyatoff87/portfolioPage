@@ -9,8 +9,9 @@ import logo5 from "../assets/logo5.svg";
 import logo6 from "../assets/logo6.svg";
 import logo7 from "../assets/logo7.svg";
 
-const Logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 const People = [person1, person2, person3];
+
+const Logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
 const TestimonialsSliderSettings = {
   dots: false,
