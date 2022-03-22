@@ -1,0 +1,36 @@
+.section5 {
+    .factsContainer {
+        display: flex;
+        gap: 2rem;
+
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+            align-items: cent-er;
+        }
+
+        .factContainer {
+            width: 100%;
+            text-align: center;
+            border: 2px solid var(--darkGray);
+            padding: 0.8rem 0;
+            border-radius: 30px;
+
+            .icon {
+                color: var(--blue);
+                font-size: 1.4rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+                color: var(--white);
+            }
+
+            h3 {
+                font-size: 1.6rem;
+                color: var(--white);
+                margin-bottom: 0;
+                margin-top: 1rem;
+            }
+        }
+    }
+}

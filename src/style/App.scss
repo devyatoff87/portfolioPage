@@ -65,15 +65,7 @@ body {
 }
 
 section {
-  margin-bottom: 5rem;
-
-  &:first-child {
-    margin-bottom: 1rem;
-  }
-
-  &:last-child {
-    margin-bottom: 1rem;
-  }
+  margin-bottom: 5rem !important;
 }
 
 @media screen and (max-width: breakpoints.$laptop) {
